@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<title>Square</title>
+</head>
+<body>
+	<div class="square">
+		<h1>Square Root Converter</h1>
+		<div class="flex">
+			<h2>The square root of <input type="text" id="num" onkeyup="square_root()"> is</h2>
+			<div id="root" onkeyup="square_root()"></div>
+		</div>
+		<button id="reset">Clear</button>
+		
+	</div>
+
+
+	<script>
+
+		
+	let root = 1/2;
+
+	function square_root(){
+    	let num = document.getElementById('num').value;
+        	num = parseInt(num);
+
+    	let square_root_of_num = num ** root;
+
+    	document.getElementById('root').innerHTML = square_root_of_num;
+
+	}
+
+	reset.addEventListener('click', () =>{
+		document.getElementById('num').value="";
+		document.getElementById('root').innerHTML = "";
+	})
+	</script>
+</body>
+</html>

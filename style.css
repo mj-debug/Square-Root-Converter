@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+    background-color: #12a4d9;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.square{
+    margin: 12em 20em;
+    border:1px solid black;
+    background-color: #322e2f;
+}
+h1{
+    color: #e2d810;
+    margin-top: 1.5em;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2{
+    margin-top: 0.5em;
+    margin-left: 1.5em;
+}
+#num{
+    padding: 0.5em 0em;
+    outline: none;
+}
+#root{
+    height: 4vh;
+    width: 20%;
+    padding:0em 1.5em;
+    margin-top: 1.4em;
+    margin-right: 5em;
+    outline: none;
+    border: 1px solid black;
+    background-color: white;
+}
+button{
+    color: #12a4d9;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 0.2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 14em;
+    border:none;
+    outline: none;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 1025px){
+
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 480px){
+    body{
+        width: 100%;
+        padding-top: 10em;
+    }
+    .square{
+        width: 100%;
+        margin: 0;
+
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 18px;
+        margin-top: 0.2em;
+        margin-left: 1.5em;
+    }
+    #num{
+        width: 30%;
+        padding: 0.2em;
+    }
+    #root{
+        height: 4vh;
+        width: 180px;
+        outline: none;
+        font-size: 20px;
+        margin-bottom: 1em;
+        margin-right: 0.5em;
+        padding: 0em 0.2em;
+    }
+    button{
+        font-size: 20px;
+        margin-left: 12em;
+        margin-top: 0em;
+        margin-bottom: 0.5em;
+    }
+}
