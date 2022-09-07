@@ -130,7 +130,7 @@ button{
         margin-bottom: 0.5em;
     }
 }
-@media screen and (min-width: 400px) and (max-width: 480px){
+@media screen and (min-width: 300px) and (max-width: 480px){
     body{
         width: 90%;
         padding-top: 10em;
